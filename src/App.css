@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+.moviePoster {
+  height: 200px;
+  width: 100px;
+}
+.movies-list {
+  list-style-type: none;
+}
+.movie-item {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  width: 80vw;
+  padding: 20px;
+  box-shadow: 1px 2px 6px 1px black;
+  border-radius: 5px;
+}
+.movie-details {
+  margin-left: 10px;
+}
+.main-container {
+  padding-left: 100px;
+  padding-right: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+.rating,
+.release-date {
+  color: gray;
+
+  margin-bottom: 0px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  width: 10vw;
+}
+.search-button {
+  width: 5vw;
+  background-color: #282c34;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 0px;
+  height: 30px;
+}
+.search-item {
+  width: 80%;
+  border-radius: 10px;
+  height: 30px;
+  padding-left: 20px;
+}
